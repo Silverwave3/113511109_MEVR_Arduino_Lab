@@ -1,26 +1,31 @@
 **`Lab1/Task1-1/report.md`（完整示範報告）**
 
 ```markdown
-# 課題報告：Task 0-1 Hello World 序列埠輸出
+# 課題報告：Task 1-1 可變電阻調整LED亮度
 
-- **學生姓名**：[請填寫姓名]
-- **學生學號**：[請填寫學號]
+- **學生姓名**：王奕云
+- **學生學號**：113511109
 - **完成日期**：2026-XX-XX
 
 ---
 
 ### 1. 實驗目標(可參考課程投影片寫法)
-- 驗證 Arduino IDE 開發環境編譯與燒錄功能正常。
-- 掌握 `Serial.begin()` 與 `Serial.println()` 之使用方式。
-- 學習透過 Arduino IDE「序列埠監控器（Serial Monitor）」接收開發板訊息。
+- 熟悉analogRead()的用法，感測類比電壓。
+- 藉由調整可變電阻來改變輸入Arduino的電壓，並改變輸出至LED的電壓。
+- 能夠實時印出類比電壓數值於序列埠監控視窗。
 
 ### 2. 設備與元件
 - Arduino Uno 開發板 x 1
 - USB Type-B 傳輸線 x 1
 - 個人電腦（已安裝 Arduino IDE）x 1
+- 10k歐姆可變電阻 x 1
+- LED燈 x 1
+- 1k歐姆電阻 x 1
+- 杜邦線 x 5
 
 ### 3. 操作說明與成果
-1. **燒錄程式**：使用 USB 線連接 Arduino Uno 至電腦，開啟 `Task0-1.ino` 並點擊「上傳」。
-2. **開啟監控器**：開啟 Arduino IDE 的 Serial Monitor，將鮑率（Baud rate）設為 **9600 baud**。
-3. **實驗成果**：序列埠監控器成功每秒印出一次 `Hello World from Arduino!` 訊息。
-4. **操作影片**：請參閱同目錄下 `video/Task0-1.mp4` 之實際操作畫面。
+1. **連接電路**：將上述設備與元件依照所需功能連接，如電阻與LED燈串連作為限流電阻。
+2. **撰寫程式**：配合實體電路及所需功能寫出對應的程式碼，完成後使用 USB 線連接 Arduino Uno 至電腦，並點擊「上傳」。
+3. **開啟監控器**：開啟 Arduino IDE 的 Serial Monitor，將鮑率（Baud rate）設為 **9600 baud**。
+4. **實驗成果**：測試電路及程式碼是否正確執行、序列埠監控視窗是否顯示類比電壓數值。
+5. **操作影片**：錄下實驗結果並上傳GitHub。
