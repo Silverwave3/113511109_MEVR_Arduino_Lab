@@ -16,5 +16,5 @@ void loop() {
     delay(10);
   }
   Serial.print("Data is ");
-  Serial.println(value/4);
+  Serial.println(value);
 }
