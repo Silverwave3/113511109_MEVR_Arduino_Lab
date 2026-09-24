@@ -1,26 +1,31 @@
-**`Lab2/Task2-2/report.md`（完整示範報告）**
+**`Lab2/Task2-2/report.md`**
 
 ```markdown
-# 課題報告：Task 0-1 Hello World 序列埠輸出
+# 課題報告：Task 2-2 Hello World 序列埠輸出
 
-- **學生姓名**：[請填寫姓名]
-- **學生學號**：[請填寫學號]
-- **完成日期**：2026-XX-XX
+- **學生姓名**：王奕云
+- **學生學號**：113511109
+- **完成日期**：2026-09-24
 
 ---
 
 ### 1. 實驗目標(可參考課程投影片寫法)
-- 驗證 Arduino IDE 開發環境編譯與燒錄功能正常。
-- 掌握 `Serial.begin()` 與 `Serial.println()` 之使用方式。
-- 學習透過 Arduino IDE「序列埠監控器（Serial Monitor）」接收開發板訊息。
+- 學會使用servo motor SG90。
+- 學會使用mine.attach()及mine.write()。
+- 學會藉由程式和距離感測器來收發超音波並取得距離。
 
 ### 2. 設備與元件
 - Arduino Uno 開發板 x 1
 - USB Type-B 傳輸線 x 1
 - 個人電腦（已安裝 Arduino IDE）x 1
+- 杜邦線 x 7
+- SG90 motor x 1
+- 超音波距離感測器 x 1
 
 ### 3. 操作說明與成果
-1. **燒錄程式**：使用 USB 線連接 Arduino Uno 至電腦，開啟 `Task0-1.ino` 並點擊「上傳」。
-2. **開啟監控器**：開啟 Arduino IDE 的 Serial Monitor，將鮑率（Baud rate）設為 **9600 baud**。
-3. **實驗成果**：序列埠監控器成功每秒印出一次 `Hello World from Arduino!` 訊息。
-4. **操作影片**：請參閱同目錄下 `video/Task0-1.mp4` 之實際操作畫面。
+1. **查詢資料**：了解SG90及距離感測器使用方法。
+2. **撰寫程式**：完成控制距離感測器和SG90的程式。
+3. **連接電路**：根據程式所寫腳位連接距離感測器和SG90。
+4. **燒錄程式**：使用 USB 線連接 Arduino Uno 至電腦，開啟 `Task2-2.ino` 並點擊「上傳」。
+5. **實驗成果**：SG90依據收到的距離數值改變轉動角度。
+6. **錄製影片**：紀錄實驗操作過程。
