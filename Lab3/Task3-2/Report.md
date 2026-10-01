@@ -1,26 +1,31 @@
 **`Lab3/Task3-2/report.md`（完整示範報告）**
 
 ```markdown
-# 課題報告：Task 0-1 Hello World 序列埠輸出
+# 課題報告：Task 3-2 虛擬按鈕操控LED
 
-- **學生姓名**：[請填寫姓名]
-- **學生學號**：[請填寫學號]
-- **完成日期**：2026-XX-XX
+- **學生姓名**：王奕云
+- **學生學號**：113511109
+- **完成日期**：2026-10-01
 
 ---
 
 ### 1. 實驗目標(可參考課程投影片寫法)
-- 驗證 Arduino IDE 開發環境編譯與燒錄功能正常。
-- 掌握 `Serial.begin()` 與 `Serial.println()` 之使用方式。
-- 學習透過 Arduino IDE「序列埠監控器（Serial Monitor）」接收開發板訊息。
+- 能夠使用 C# 與 visual studio 建立簡單的按鈕功能介面。
+- 能夠將按鈕介面發出的訊號傳遞至 Arduino 。
 
 ### 2. 設備與元件
 - Arduino Uno 開發板 x 1
 - USB Type-B 傳輸線 x 1
 - 個人電腦（已安裝 Arduino IDE）x 1
+- Visual Studio
+- LED x 1
+- 100歐姆電阻 x 1
+- 杜邦線 x 2
 
 ### 3. 操作說明與成果
-1. **燒錄程式**：使用 USB 線連接 Arduino Uno 至電腦，開啟 `Task0-1.ino` 並點擊「上傳」。
-2. **開啟監控器**：開啟 Arduino IDE 的 Serial Monitor，將鮑率（Baud rate）設為 **9600 baud**。
-3. **實驗成果**：序列埠監控器成功每秒印出一次 `Hello World from Arduino!` 訊息。
-4. **操作影片**：請參閱同目錄下 `video/Task0-1.mp4` 之實際操作畫面。
+1. **準備電路**：接好LED電路或是沿用實驗 3-1 的一半部分電路。
+2. **撰寫arduino程式**：使 Arduino 能夠由序列埠接收訊號來控制LED開關。
+3. **創建按鈕介面**：使用 Visual Studio 來建立按鈕介面，並使用C#來賦予按鈕功能、傳送訊號給 Arduino 序列埠。
+4. **燒錄程式**：上傳 Arduino 程式與開啟按鈕介面。
+5. **實驗成果**：按鈕可以用來開關LED。
+6. **操作影片**：紀錄實驗過程。

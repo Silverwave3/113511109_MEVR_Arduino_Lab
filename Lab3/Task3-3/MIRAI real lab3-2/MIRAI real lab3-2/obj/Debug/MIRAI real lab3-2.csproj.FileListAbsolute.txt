@@ -1,0 +1,10 @@
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI real lab3-2.csproj.AssemblyReference.cache
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI_real_lab3_2.Properties.Resources.resources
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI real lab3-2.csproj.GenerateResource.cache
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI real lab3-2.csproj.CoreCompileInputs.cache
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI_real_lab3_2.Form1.resources
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\bin\Debug\MIRAI real lab3-2.exe.config
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\bin\Debug\MIRAI real lab3-2.exe
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\bin\Debug\MIRAI real lab3-2.pdb
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI real lab3-2.exe
+C:\Users\nicol\OneDrive\Desktop\作業相關\機電整合與虛擬實境實驗\MIRAI real lab3-2\MIRAI real lab3-2\obj\Debug\MIRAI real lab3-2.pdb
